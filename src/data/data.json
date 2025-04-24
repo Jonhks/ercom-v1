@@ -1,0 +1,223 @@
+{
+  "Header": {
+    "title": "We are a Landing Page",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "paragraph": "Más eficientes, rápidos, seguros y accesibles.",
+    "Why": [
+      "Ofrecemos soluciones de tecnología a la medida que permitan optimizar sus procesos de negocio.",
+      "Creamos productos de base tecnológica que atiendan las necesidades específicas de nuestros clientes y su mercado.",
+      "Somos aliados estratégicos en el desarrollo de organizaciones a través del aprovechamiento de Tecnologías de la Información."
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Estándares internacionales",
+      "text": "Desarrollamos tecnologías bajo estándares internacionales."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Integraciones",
+      "text": "Nuestros desarrollos tienen la capacidad de operar e integrarse con cualquier otra plataforma o tecnología."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Desarrollo Continuo",
+      "text": "Construimos plataformas y herramientas concebidas para tener desarrollo continuo."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Innovación",
+      "text": "Tenemos un equipo innovador, especializado en entender y aterrizar eficazmente las necesidades de nuestros clientes."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Ágil y Flexible",
+      "text": "Trabajamos con metodologías agiles y flexibles que nos permite adaptar nuestros desarrollos a las necesidades cambiantes del mercado."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Calidad",
+      "text": "Contamos con sistemas de gestión que aseguran la calidad de nuestros desarrollos."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": {
+    "data": [
+      {
+        "icon": "fa fa-comments-o",
+        "title": "Front End",
+        "text": "Desarrollamos soluciones Stand/Alone, Cliente/Servidor, Web y Apps compatibles con los sistemas operativos, navegadores y dispositivos con mayor presencia en el mercado."
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "title": "Back End",
+        "text": "Desarrollamos plataformas con tecnologías que garantizan su conectividad y escalabilidad con el crecimiento y la dinámica del mercado tecnológico actual."
+      },
+      {
+        "icon": "fa fa-group",
+        "title": "Middleware",
+        "text": "Desarrollamos interfaces de integración entre diferentes sistemas a través Web Services bajo los estandares mas altos de seguridad, con altos niveles de servicio, transaccionalidad y concurrencia."
+      }
+    ],
+    "Why2": [
+      "Facturación, Contabilidad y Finanzas",
+      "Gestión de Personal",
+      "Plataformas de ventas",
+      "Sistemas Punto de Venta",
+      "CRM"
+    ],
+    "Why3": [
+      "Logística y cadena de Suministro",
+      "Control y producción",
+      "Sistemas de Gestión Médica",
+      "Programas de lealtad e incentivos"
+    ]
+  },
+  "Skills": {
+    "lenguajes": [
+      "HTML5/CSS",
+      "JavaScript",
+      "Android/Swift",
+      "PHP",
+      "XML, JSON",
+      "Java",
+      "Magic xpa 2.x/3.x (Standalone, RIA, Web y mobile )"
+    ],
+    "bdd": [
+      "Oracle",
+      "DB2",
+      "MS-SQL",
+      "Server",
+      "MySQL",
+      "Informix",
+      "Firebird",
+      "PostgreSQL",
+      "ODBC"
+    ],
+    "aws": ["EC2", "RDS", "S3"],
+    "servidores": [
+      "SOAP/XML sobre IIS",
+      "REST/JSON sobre Glassfish + Jersey",
+      "& JBOSS/Wildfly+RESTeasy"
+    ],
+    "ISOs": ["Windows Server 2008/2012/2016", "Ubuntu", "Red Hat"]
+  },
+  "inplants": [
+    "- Análisis de requerimientos",
+    "- Codificación en múltiples lenguajes.",
+    "- Codificación de Web Services.",
+    "- Documentación de diseño,",
+    "programación y procedimientos."
+  ]
+}
