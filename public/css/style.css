@@ -1,3 +1,9 @@
+:root {
+  --initial-gradient: #7d0001;
+  --main: #7d0001;
+  --active: #7d0001;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -104,7 +110,11 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(
+    to right,
+    var(--initial-gradient) 0%,
+    var(--main) 100%
+  );
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +135,11 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(
+    to right,
+    var(--main) 0%,
+    var(--main) 100%
+  ) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +149,11 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: var(--main);
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  /* background-color: #608dfd; */
+  background: var(--active);
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +167,8 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: var(--active);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +182,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: var(--active);
+  /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +200,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: var(--main);
 }
 .btn:active,
 .btn.active {
@@ -257,7 +273,8 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: var(--active);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +293,8 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: linear-gradient(to right, var(--active) 0%, var(--main) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +309,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: var(--active);
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -299,7 +317,7 @@ header .intro-text {
 .li-list:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: var(--active);
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -318,7 +336,10 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, var(--active) 0%, var(--main) 100%); */
+
   color: #fff;
 }
 #services .service-desc {
@@ -330,7 +351,7 @@ header .intro-text {
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--active);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -342,7 +363,8 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: var(--active);
+  /* background: linear-gradient(to right, var(--active) 0%, var(--main) 100%); */
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -486,7 +508,7 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--active);
   height: 4px;
   width: 60px;
   bottom: 0;
